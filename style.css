@@ -1,0 +1,44 @@
+#buildarea {
+    background-color: #EBEBEB;
+    padding: 15px;
+    margin: 20px;
+    width: 450px;
+    border-radius: 15px;
+}
+
+.element {
+    margin: 18px;
+}
+
+.build-thing {
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 3px;
+    width: 300px;
+}
+
+.Fire {
+    border-color: red;
+}
+
+.Air {
+    border-color: white;
+}
+
+.Earth {
+    border-color: brown;
+}
+
+.Lightning {
+    border-color: yellow;
+}
+
+.Water {
+    border-color: blue;
+}
+
+.Chaos {
+    border-color: purple;
+}
