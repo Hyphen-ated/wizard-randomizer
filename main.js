@@ -132,7 +132,7 @@ miscRelics = [
 "Igniting Sprite Vesa",
 "Blasting Sprite Aura",
 "Plaguing Sprite Dria",
-"Sparing Sprite Etra",
+"Sparking Sprite Etra",
 "Freezing Sprite Naya",
 "Mystic Monopole",
 "Surefire Rocket",
