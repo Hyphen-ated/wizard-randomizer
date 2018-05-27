@@ -180,7 +180,7 @@ dashArcana = {
     "Fire": ["Searing Rush", "Flare Rush"],
     "Air": ["Air Burst", "Gust Burst"],
     "Earth": ["Spike Track", "Toxic Trap"],
-    "Lightning":["Curcuit Line", "Shock Line"],
+    "Lightning":["Circuit Line", "Shock Line"],
     "Water": ["Wave Front", "Frost Feint"],
     "Chaos": ["Chaotic Rift"]
 }
