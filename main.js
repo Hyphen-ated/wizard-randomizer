@@ -218,9 +218,9 @@ function pickArcana(arcanaDict, disallowedName) {
         var element = elements[i];
         count += arcanaDict[element].length;
     }
-    arcana = "";
-    arcanaType = "";
-    arcanaPosition = 0;
+    var arcana = "";
+    var arcanaType = "";
+    var arcanaPosition = 0;
     do {
         arcanaIdx = Math.floor(Math.random() * count);        
         for(var i = 0, len = elements.length; i < len; ++i) {
@@ -234,7 +234,7 @@ function pickArcana(arcanaDict, disallowedName) {
                 arcanaIdx -= arcanaDict[element].length;
             }
         }
-    } while (bannedNames.indexOf(arcana) > -1 && arcana != disallowedName)
+    } while (bannedNames.indexOf(arcana) > -1 || arcana === disallowedName)
     
     return {"arcana": arcana, "arcanaType": arcanaType, "arcanaPosition": arcanaPosition};
 }
